@@ -14,16 +14,14 @@ img{
   height: 56.18px;
   left: 323px;
   top: 319px;
-  transition: border-color 0.3s ease-in-out;
 }
 
 #userid:hover{
   cursor: pointer;
 }
 
-input:focus{
-  border-color: #8e8e8e;
-  outline: none;
+#userid:focus{
+  border-color: black;
 }
 
 .idinput{
