@@ -8,26 +8,33 @@ img{
   position: absolute;
 }
 
-.loginid{
+#userid{
   position: absolute;
   width: 409px;
   height: 56.18px;
   left: 323px;
   top: 319px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#userid:hover{
+  cursor: pointer;
+}
+
+input:focus{
+  border-color: #8e8e8e;
+  outline: none;
 }
 
 .idinput{
   margin-bottom: 50px;
-  box-sizing: border-box;
   width: 409px;
   height: 56.18px;
   left: 323px;
   top: 375.18px;
   background: #FFFFFF;
-  border: 1px solid rgba(158, 157, 157, 0.78);
   border-radius: 10px;
 }
-
 
 .btn{
   position: absolute;
@@ -35,8 +42,6 @@ img{
   height: 59.13px;
   left: 323px;
   top: 434.83px;
-
   background: #ADECEC;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
