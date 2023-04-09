@@ -1,0 +1,42 @@
+*{
+  font-family: 'Pretendard Variable';
+}
+
+img{
+  left: 463px;
+  top: 154px;
+  position: absolute;
+}
+
+.loginid{
+  position: absolute;
+  width: 409px;
+  height: 56.18px;
+  left: 323px;
+  top: 319px;
+}
+
+.idinput{
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  width: 409px;
+  height: 56.18px;
+  left: 323px;
+  top: 375.18px;
+  background: #FFFFFF;
+  border: 1px solid rgba(158, 157, 157, 0.78);
+  border-radius: 10px;
+}
+
+
+.btn{
+  position: absolute;
+  width: 409px;
+  height: 59.13px;
+  left: 323px;
+  top: 434.83px;
+
+  background: #ADECEC;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
