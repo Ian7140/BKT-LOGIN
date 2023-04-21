@@ -27,10 +27,22 @@ img{
 }
 
 #userid{
+  border: 1px solid #000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   position: absolute;
   width: 409px;
   height: 56.18px;
   top: 319px;
+}
+#userpw{
+  border: 1px solid #000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  width: 409px;
+  height: 56.18px;
+  top: 373px;
 }
 
 #userid:hover{
@@ -54,7 +66,7 @@ img{
   position: absolute;
   width: 409px;
   height: 59.13px;
-  top: 434.83px;
+  top: 476.83px;
   background: #ADECEC;
   border-radius: 10px;
 }
